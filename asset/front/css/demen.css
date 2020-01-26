@@ -1,0 +1,2478 @@
+html {
+    font-family: medium
+}
+
+.grid1 {
+    width: 4.333%
+}
+
+.grid2 {
+    width: 12.667%
+}
+
+.grid3 {
+    width: 21%
+}
+
+.grid4,
+.blocks .block {
+    width: 29.333%
+}
+
+.grid5 {
+    width: 37.667%
+}
+
+.grid6 {
+    width: 46%
+}
+
+.grid7 {
+    width: 54.333%
+}
+
+.grid8 {
+    width: 62.667%
+}
+
+.grid9 {
+    width: 71%
+}
+
+.grid10 {
+    width: 79.333%
+}
+
+.grid11 {
+    width: 87.667%
+}
+
+.grid12 {
+    width: 96%
+}
+
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9,
+.grid10,
+.grid11,
+.blocks .block,
+.grid12 {
+    display: block;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.product .grid12 {
+    position: relative;
+    margin: 0;
+    padding: 0 4.5%;
+    width: 100%
+}
+
+.grid {
+    clear: both;
+    padding: 0
+}
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    width: 100%
+}
+
+.grid-newline {
+    clear: left
+}
+
+.grid-alpha {
+    margin-left: 0
+}
+
+.grid-omega {
+    margin-right: 0
+}
+
+.grid.blocks {
+    padding: 2em 2.5%
+}
+
+.grid4.phplatformrightcolumn {
+    margin-left: 15px
+}
+
+body {
+    background: #06245e
+}
+
+.wrapper {
+    background: #f2f4f8
+}
+
+section {
+    margin-bottom: 0
+}
+
+h1 {
+    margin-left: 0
+}
+
+h2.listhead {
+    display: none
+}
+
+.grid h2.grid12,
+.grid h1.grid12 {
+    font-size: 3.2em
+}
+
+section.blocks > h1.grid12 {
+    margin-top: 3em
+}
+
+.banner + section + .sharing + section.blocks > h1.grid12,
+.home section.blocks h1.grid12,
+.banner + .sharing + section.blocks > h1.grid12 {
+    margin-top: .3em;
+    margin-bottom: .8em
+}
+
+section.blocks > .grid6,
+section.blocks > .grid6 + .grid6 {
+    margin-top: 11em
+}
+
+.banner + .sharing + section.blocks > .grid6 {
+    margin-top: 0
+}
+
+.banner + section.blocks > .grid6 {
+    margin-top: 0
+}
+
+section.blocks > .grid6 h1 {
+    margin-top: 0;
+    font-size: 2.4em
+}
+
+.button1,
+a.button1 {
+    margin-top: 3px;
+    border-left: 35px solid #082C7B
+}
+
+.button1:after {
+    content: "5"
+}
+
+.banner div.info .button3,
+.banner div.info .button1 {
+    position: relative;
+    top: 0;
+    margin-left: 5.2%;
+    margin-bottom: 3px
+}
+
+.banner div.info .button3:nth-child(2),
+.banner div.info .button1:nth-child(2) {
+    top: 0
+}
+
+@media(max-width:820px) {
+    .banner div.info .button3,
+    .banner div.info .button1 {
+        float: none
+    }
+}
+
+.button1,
+.button3 {
+    background: #2f57ad
+}
+
+.button-cta {
+    background-color: #f8660c;
+    color: #FFF
+}
+
+.button1,
+a.button1 {
+    padding: 0 1em
+}
+
+.button1 span {
+    top: 0
+}
+
+.button2:after,
+.button3:after,
+.scfForm .scfSubmitButtonBorder input:after {
+    top: 0
+}
+
+header.wrapper {
+    border-top: 5px solid #3c599b;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 70px
+}
+
+header > section {
+    padding: 0 4.5% .8em 4.5%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+header .logo {
+    margin-top: 2em;
+    float: left;
+    margin-bottom: .5em;
+    margin-left: 0;
+    position: relative;
+    width: auto
+}
+
+header .logo img {
+    min-width: 100%;
+    margin-top: 0
+}
+
+.topmenu {
+    display: none
+}
+
+header .contact {
+    text-align: right;
+    float: right;
+    clear: right;
+    margin-top: 1.4em;
+    display: block
+}
+
+header .contact p {
+    padding: 0;
+    margin: .3em 0 0 1.5em;
+    float: none
+}
+
+header .contact .support {
+    display: inline
+}
+
+.menu-wrapper {
+    box-shadow: none;
+    clear: both;
+    left: auto;
+    position: static;
+    width: auto
+}
+
+.menu-wrapper.menu-wrapper-slide-in {
+    box-shadow: none
+}
+
+.utility {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 4.5%;
+    top: 0;
+    background: #3c599b;
+    padding: .2em 0 .5em;
+    border-bottom-width: 0
+}
+
+.utility li {
+    float: left;
+    position: relative;
+    margin: 0 1.1em;
+    border-top-width: 0
+}
+
+.utility li:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 16px;
+    left: -1.1em;
+    top: 6px;
+    background-color: #fff;
+    opacity: .5
+}
+
+.utility li:first-child:before {
+    width: 0
+}
+
+.utility a {
+    border-top-width: 0;
+    color: #fff;
+    line-height: 1.8;
+    padding: 0
+}
+
+.utility a.active {
+    padding-bottom: .25em;
+    border-bottom: 4px solid #fff;
+    margin-bottom: -11px
+}
+
+.largemenu {
+    display: block;
+    clear: left;
+    margin-bottom: .3em;
+    margin-right: 100px;
+    margin-top: 0;
+    overflow: hidden;
+    left: 0;
+    position: relative;
+    width: auto;
+    box-shadow: none
+}
+
+.largemenu a {
+    position: relative;
+    padding: .2em 0;
+    margin: 0 .8em;
+    text-decoration: none;
+    color: #323232;
+    float: left;
+    display: block;
+    border-top: 0;
+    border-bottom: 4px solid #fff;
+    font-size: 1.067em
+}
+
+.largemenu a:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 18px;
+    left: -.8em;
+    top: 6px;
+    background-color: #ccc
+}
+
+.largemenu a:first-child {
+    margin-left: 0;
+    padding-left: 0
+}
+
+.largemenu a:first-child:before {
+    width: 0
+}
+
+.largemenu a:last-child {
+    border: 0;
+    margin-right: 0;
+    padding-right: 0
+}
+
+.largemenu a:hover {
+    color: #2f57ad
+}
+
+.largemenu a.active {
+    border-bottom: 4px solid #f8660c;
+    font-weight: normal
+}
+
+.bg-coloritem {
+    height: 135px;
+    background: #afbfe3
+}
+
+.search.wrapper {
+    display: block;
+    position: absolute;
+    bottom: -9em;
+    left: 0;
+    width: 100%
+}
+
+.search.wrapper.nobreadcrumb {
+    bottom: -7.1em
+}
+
+.search > section,
+.breadcrumbs > section,
+footer > section {
+    padding: 1em 4.5%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.search input {
+    clear: none;
+    float: none;
+    width: 100%;
+    border-color: #fff
+}
+
+.search button {
+    width: 127px
+}
+
+.search .grid12 {
+    margin-bottom: 1.5em
+}
+
+.search section > div {
+    float: left;
+    width: 32%
+}
+
+.breadcrumbs {
+    display: block;
+    margin: 0 0 .8em 4.5%
+}
+
+.breadcrumbs span:first-child a {
+    padding-left: 0
+}
+
+.breadcrumbs span:last-child {
+    padding-left: .5em
+}
+
+.breadcrumbs span a {
+    padding: 0 .5em
+}
+
+.building .banner {
+    margin-bottom: 0
+}
+
+.videoloading {
+    display: block;
+    height: 48px;
+    left: 50%;
+    position: absolute !important;
+    top: 55%;
+    width: 48px
+}
+
+.cssanimations .videoloading {
+    -moz-animation: 1s linear 0s normal none infinite rot;
+    -o-animation: 1s linear 0s normal none infinite rot;
+    -webkit-animation: 1s linear 0s normal none infinite rot;
+    animation: 1s linear 0s normal none infinite rot;
+    border-color: rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4);
+    z-index: 20;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 8px
+}
+
+@-webkit-keyframes rot {
+    from {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -moz-transform: rotate(359deg);
+        -ms-transform: rotate(359deg);
+        -o-transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+@keyframes rot {
+    from {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -moz-transform: rotate(359deg);
+        -ms-transform: rotate(359deg);
+        -o-transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+.no-cssanimations .videoloading {
+    border: 0;
+    background: url("/includes/image/products/loading3.gif") 0 0 no-repeat;
+    border-radius: 0
+}
+
+.banner {
+    position: relative;
+    margin-bottom: 1em;
+    background: #E0E5EF
+}
+
+.banner .image {
+    position: relative
+}
+
+.banner div.info,
+.banner .downloads {
+    position: absolute !important;
+    z-index: 5;
+    overflow: visible
+}
+
+.banner h1,
+.banner div.info .title,
+.banner > div.info h2 {
+    position: relative;
+    margin: 0;
+    top: 0;
+    margin-bottom: .4em;
+    margin-left: 5.2%;
+    max-width: 650px;
+    width: 76%
+}
+
+.banner img {
+    display: block
+}
+
+.banner .playerStarted {
+    visibility: hidden;
+    max-height: 728px
+}
+
+.banner div.info {
+    width: 85%;
+    position: absolute !important;
+    z-index: 5;
+    bottom: 8px
+}
+
+.banner div.info ul {
+    margin-bottom: 2em;
+    margin-left: 0
+}
+
+.banner div.info .subtitle {
+    margin: .5em 0 1.2em 0
+}
+
+.info-titel.h1AtBottom {
+    bottom: 10px
+}
+
+.info-titel.h2AtTop {
+    top: 0;
+    margin-top: 120px
+}
+
+.info-titel {
+    position: absolute;
+    width: 100%;
+    height: auto
+}
+
+.info-content {
+    position: relative;
+    height: 100%
+}
+
+@media(min-width:820px) {
+    .banner h1,
+    .banner > div.info h2 {
+        font-size: 2em
+    }
+    .banner div.info {
+        bottom: 14px
+    }
+}
+
+.home .banner div.info {
+    top: 9.5em
+}
+
+.home .banner div.info .button3,
+.home .banner div.info .button2,
+.home .banner div.info .button1 {
+    margin-left: 4.5%
+}
+
+.banner .player,
+.banner .mbYTP_wrapper {
+    display: block
+}
+
+.sharing {
+    padding: 0
+}
+
+.sharing .wrapper {
+    background: transparent
+}
+
+.sharing .wrapper > div {
+    margin-right: 4.5%
+}
+
+.grid.blocks .block:nth-child(3n + 4) {
+    clear: left
+}
+
+.grid.blocks > section > section:nth-child(3n + 4) {
+    clear: left
+}
+
+.grid.blocks .block {
+    border-bottom: 0;
+    margin-bottom: 2em
+}
+
+.grid.blocks .block img {
+    width: 100%;
+    margin: 0;
+    float: none;
+    display: block
+}
+
+.block h2 a:hover span {
+    text-decoration: none
+}
+
+.block h3 {
+    padding: 0
+}
+
+.block h2,
+.block p,
+.block a.cta,
+.block .numbers {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.aside .block {
+    width: 100%;
+    margin-bottom: 3em
+}
+
+.block .vessel-filter {
+    width: 100%;
+    margin: 0
+}
+
+.grid.products .grid9 ul {
+    width: 32%;
+    float: left;
+    margin-left: 2%;
+    color: #d5deef
+}
+
+.grid.products .grid9 ul:first-child {
+    margin-left: 0
+}
+
+.linklist li {
+    margin-bottom: .7em
+}
+
+.grid.products > section .grid3 {
+    width: 100%;
+    margin: 0
+}
+
+.grid.products > section .grid3 > h3 {
+    margin-top: 0
+}
+
+.grid.products > section {
+    width: 22.5%;
+    margin-right: 2.5%
+}
+
+.grid.products h2 + section + section + section {
+    clear: none
+}
+
+.grid.products h2 + section + section + section .linklist:before {
+    width: 1px
+}
+
+@media(max-width:920px) {
+    .grid.products .linklist {
+        font-size: .83em
+    }
+}
+
+.event-page .button3 {
+    top: 56px;
+    right: 4.5%;
+    width: 190px;
+    font-size: 14px
+}
+
+.event-page .grid4 {
+    margin: 0
+}
+
+.event-page table {
+    margin: -20px 0 20px 0
+}
+
+.event-page table tr th {
+    padding: 15px 0
+}
+
+.event-page .button3:after {
+    right: 2em
+}
+
+.building h1 {
+    margin-bottom: .6em
+}
+
+.building .grid12 > article {
+    overflow: hidden
+}
+
+.building .grid9 h2:after,
+.building .grid9 h2.active:after {
+    content: ""
+}
+
+.building .grid12 h2 {
+    padding: 1em 0 .5em 0;
+    font-size: 3.2em
+}
+
+.building article {
+    margin-bottom: 0
+}
+
+.downloads .grid,
+.contact .grid {
+    padding: 0
+}
+
+.building .grid > a {
+    display: block;
+    float: left;
+    clear: left;
+    height: 0
+}
+
+.building .downloads,
+.building .gallery,
+.building .bblock {
+    padding-bottom: 1.5em !important
+}
+
+.building .deliveries article,
+.building .deliveries .owl-wrapper h3,
+.building .accordion h2,
+.building .gallery h2,
+.building .deliveries .owl-wrapper p,
+.building .relatedproducts h3 {
+    padding-left: 0
+}
+
+.building .design article {
+    position: relative
+}
+
+.building .design ol {
+    overflow: hidden
+}
+
+.building .design ol li {
+    width: 23%;
+    float: left;
+    margin-right: 8%;
+    padding-left: 4%
+}
+
+.building .design ol li + li + li,
+.building .design ol li + li + li + li + li + li {
+    margin-right: 0
+}
+
+.building .gallery.grid12 {
+    padding: 0 2.5%
+}
+
+.building .gallery article {
+    padding: 1em 2% 1.2em 2%
+}
+
+.building .gallery #slideshow,
+.deliveries ul {
+    overflow: hidden
+}
+
+.building .gallery #slideshow div,
+.deliveries li {
+    float: left;
+    width: 32%;
+    margin-right: 2%
+}
+
+.building .gallery select,
+.downloads select {
+    width: 35%
+}
+
+.building .gallery a {
+    position: relative
+}
+
+.building .gallery a,
+.gallery img {
+    display: block
+}
+
+.building .gallery div p {
+    padding: 1em 0
+}
+
+.building .gallery .buttonbar {
+    padding: 0
+}
+
+.building .gallery .owl-carousel .owl-item > div {
+    padding: 0 4%
+}
+
+.people .grid3 {
+    display: inline-block;
+    float: none;
+    width: 100%;
+    height: 400px;
+    overflow: hidden
+}
+
+.people .grid3 p {
+    word-break: break-word
+}
+
+.people .grid a {
+    word-break: break-all
+}
+
+.people .toggle.button3 {
+    display: block;
+    width: 90px;
+    margin: 0 auto
+}
+
+.people .toggle-wrapper {
+    margin: 0 auto
+}
+
+.people .rendering {
+    margin: 0;
+    max-width: none
+}
+
+.people section .grid3 + .grid3 {
+    display: inline-block
+}
+
+.people section.open .grid3 + .grid3 {
+    display: inline-block
+}
+
+.people section .grid3:nth-child(n + 5) {
+    display: none
+}
+
+.people section.open .grid3:nth-child(n + 5) {
+    display: inline-block
+}
+
+.people .owl-carousel .owl-wrapper {
+    width: 100% !important
+}
+
+.people .owl-carousel .owl-wrapper-outer {
+    margin-left: 6px;
+    overflow: visible
+}
+
+.people .owl-carousel .owl-item {
+    width: 21% !important;
+    margin: 0 10px
+}
+
+.people .owl-carousel .owl-item:nth-child(n + 5) {
+    display: none
+}
+
+.people .owl-carousel.open .owl-item:nth-child(n + 5) {
+    display: block
+}
+
+.building .deliveries h2 {
+    padding-left: 0
+}
+
+.building .gallery.deliveries div p {
+    padding: 0
+}
+
+.building .gallery.deliveries div p:not(.date) {
+    min-height: 42px
+}
+
+.filterset {
+    padding: 0
+}
+
+.grid.blocks .filterset {
+    margin-bottom: 4em
+}
+
+.grid.blocks .filterset + section {
+    clear: both;
+    margin-top: 420px
+}
+
+.grid.blocks .filterset .block {
+    margin-bottom: 1em
+}
+
+.grid.blocks .filterset .block:nth-child(3) {
+    display: none
+}
+
+.filterset-toggles {
+    overflow: hidden
+}
+
+.filterset-toggle {
+    float: left;
+    width: 50%;
+    padding: 0
+}
+
+.building .news ul {
+    overflow: hidden
+}
+
+.building .news li {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    border-bottom: 0
+}
+
+.building .news li:nth-child(6n + 5) {
+    margin-right: 0
+}
+
+.building .news li:nth-child(6n + 7) {
+    clear: left
+}
+
+.building .news li h3 {
+    font-size: 1.2em
+}
+
+.building .news p.date {
+    font-size: 1em
+}
+
+.building .news p.date,
+.building .news li h3 {
+    padding-left: 42%
+}
+
+.building .news img {
+    width: 38%
+}
+
+.building .news h3:hover {
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.building .deliveries div h3,
+.building .teasers div h3 {
+    font-size: 1.6em
+}
+
+.building .deliveries div p.date,
+.building .relatedproducts .blocks .block:first-child {
+    margin-left: 0
+}
+
+.building .relatedproducts .blocks .block:nth-child(3n + 4) {
+    margin-left: 0;
+    clear: left
+}
+
+.building .relatedproducts .blocks .block:nth-child(3n + 3) {
+    margin-right: 0
+}
+
+.building .relatedproducts .blocks .block {
+    width: 30.5%;
+    margin-bottom: 2em
+}
+
+.building .grid12.accordion {
+    padding: 0 0 1.5em 0
+}
+
+.building .grid12.accordion h2 {
+    padding-left: 4.5%
+}
+
+.building .accordion .user-generated {
+    overflow: hidden;
+    padding: .5em 4.5% 0 4.5%
+}
+
+.building .accordion .media {
+    float: right;
+    width: 50%;
+    margin-left: 1em
+}
+
+.user-generated img {
+    width: auto !important;
+    margin: 0 0 .5em 2em;
+    float: right
+}
+
+.grid.connect {
+    padding-left: 4.5% !important;
+    padding-right: 4.5% !important
+}
+
+.connect ul.social li:first-child a {
+    margin-left: 0
+}
+
+.connect h2 {
+    font-size: 3em;
+    margin: .2em .5em 0 0;
+    float: left
+}
+
+@media(max-width:1186px) {
+    :not(footer) .connect h2 {
+        font-size: 2em;
+        margin-top: .7em
+    }
+}
+
+@media(max-width:980px) {
+    :not(footer) .connect h2 {
+        font-size: 3em;
+        margin-top: 0;
+        display: block;
+        float: none;
+        margin-bottom: .3em
+    }
+}
+
+.building .bblock article div {
+    width: 48%;
+    margin-left: 4%;
+    margin-bottom: 0;
+    float: left
+}
+
+.building .bblock article div:first-child {
+    margin-left: 0
+}
+
+.downloads .grid4 {
+    margin-right: 0;
+    float: right;
+    width: 33.333%
+}
+
+.downloads .grid4 h3 {
+    margin: 0 0 1em 0;
+    font-size: 1.2em;
+    color: #555
+}
+
+.contact .grid4 {
+    margin-left: 0;
+    width: 33.333%
+}
+
+.building .form {
+    float: left;
+    width: 47%
+}
+
+.building p + .form {
+    margin-right: 5%
+}
+
+.building p + .form + .form {
+    margin-right: 0;
+    margin-top: 36px
+}
+
+.building .contact .button3 + .required {
+    clear: left
+}
+
+.showmore {
+    width: 50%
+}
+
+footer {
+    border-top: 0;
+    color: #fff
+}
+
+footer .grid {
+    padding: 0 2.5%
+}
+
+footer ul {
+    float: left;
+    list-style: none
+}
+
+footer ul li {
+    margin-top: 0
+}
+
+footer .subfooter {
+    padding: 0 4.5%
+}
+
+footer .subfooter span {
+    margin-left: 2%
+}
+
+.backtotop.footerlink {
+    display: none !important
+}
+
+.gallery .owl-buttons .owl-prev,
+.gallery .owl-buttons .owl-next {
+    bottom: 50%
+}
+
+@media(max-width:920px) {}
+
+.design .owl-buttons .owl-prev,
+.design .owl-buttons .owl-next {
+    bottom: 35%
+}
+
+.vessel-gallery.gallery .owl-buttons .owl-prev,
+.vessel-gallery.gallery .owl-buttons .owl-next {
+    bottom: 25%
+}
+
+.deliveries .owl-buttons .owl-prev,
+.deliveries .owl-buttons .owl-next {
+    bottom: 50%
+}
+
+.block .owl-buttons .owl-prev,
+.block .owl-buttons .owl-next {
+    top: 23%
+}
+
+.gallery .owl-carousel:before,
+.gallery .owl-carousel:after {
+    width: 90px
+}
+
+.owl-buttons .owl-prev,
+.owl-buttons .owl-next {
+    background-image: url("/includes/image/products/owl-arrows.png")
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .breadcrumbs .grid {
+        padding: 0 4.5%;
+        margin: 0
+    }
+}
+
+.story .owl-carousel .content-block {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 60%;
+    bottom: 0;
+    padding: 10px 4.5% 20px 80px
+}
+
+.owl_slide_numb {
+    position: absolute;
+    left: 3%;
+    width: 30px;
+    height: 30px;
+    background-color: #2f57ad;
+    color: #fff;
+    z-index: 2;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px
+}
+
+.story .owl-buttons .owl-prev,
+.story .owl-buttons .owl-next {
+    bottom: 42%
+}
+
+.story .owl-carousel h2 {
+    position: absolute;
+    max-width: 100%;
+    margin-left: 0;
+    font-size: 2.2em;
+    padding: .5em 0 .5em 4.5%
+}
+
+.story .owl-carousel .button3 {
+    position: absolute;
+    margin-left: 4.5%;
+    top: 60px
+}
+
+.story .owl-carousel .specs .content-block {
+    font-weight: bold;
+    width: 80%;
+    padding: 10px 10% 20px 10%
+}
+
+.story .owl-carousel .specs .content-block table td {
+    width: 50%
+}
+
+.story .owl-carousel h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 .5em 0
+}
+
+.building .menu .subMenu .right_align_last {
+    margin-right: 0
+}
+
+.wffm .scfForm .scfSectionContent > div > label,
+.wffm .scfForm label,
+.wffm .scfForm .scfRadioButtonListBorder > span,
+.wffm .scfForm .scfCheckBoxListBorder > span {
+    width: 40%;
+    clear: none
+}
+
+.wffm .scfForm input,
+.wffm .scfForm textarea,
+.wffm .scfForm select {
+    width: 60%
+}
+
+.wffm .scfForm .scfRadioButtonListGeneralPanel {
+    height: 30px;
+    padding: 4px 0
+}
+
+.wffm .scfForm .scfRadioButtonList label {
+    clear: none
+}
+
+.wffm .scfForm input[type=checkbox],
+.wffm .scfForm input[type=radio],
+.wffm .scfForm .scfRadioButtonList label {
+    width: auto;
+    float: left
+}
+
+.wffm .scfForm .scfCheckbox label {
+    width: 40%;
+    margin-right: 0
+}
+
+.wffm .scfForm .scfValidator {
+    margin-left: 40%
+}
+
+.contact .grid4.pushed-down {
+    margin-top: 129px
+}
+
+.wffm .fileUploadarea input:before {
+    width: 350px
+}
+
+.building .vessel-gallery div h3 {
+    display: inline-block;
+    font-size: 1.6em;
+    color: #224691
+}
+
+.building .vessel-gallery div p {
+    padding: 0
+}
+
+.building .vessel-gallery div .date,
+.building .vessel-gallery .user-generated {
+    margin-bottom: .9em
+}
+
+.vessel-section .owl-item .block {
+    width: 362px
+}
+
+.techcooperationchoices .grid {
+    margin-left: -1%;
+    margin-right: -1%
+}
+
+.techcooperationchoices .grid3 {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 23%
+}
+
+.techcooperationchoices .choice-techcoop label:hover {
+    cursor: pointer
+}
+
+.techcooperationchoices h3 {
+    text-transform: uppercase;
+    color: #2f57ad
+}
+
+.techcooperationchoices .list-bullet {
+    list-style: square inside none
+}
+
+.techcooperationchoices .list-bullet li {
+    padding-left: 1em;
+    text-indent: -1.2em
+}
+
+.techcooperationchoices .list-bullet .list-bullet__plus {
+    list-style: none;
+    font-weight: 700
+}
+
+.techcooperationchoices .choice-field {
+    text-align: right;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #CAD1E3;
+    margin-bottom: 6px
+}
+
+.languageSwitcher {
+    right: 2.5%;
+    top: 101px;
+    margin-right: -35px;
+    padding-top: 0
+}
+
+.languageSwitcher li.selected {
+    margin-bottom: 16px
+}
+
+.languageSwitcher li.selected:after {
+    top: 13px
+}
+
+.languageSwitcher li a {
+    background-size: 38px
+}
+
+.languageSwitcher li a.en {
+    background-position: 74px 6px
+}
+
+.languageSwitcher li a.no {
+    background-position: 74px -35px
+}
+
+.languageSwitcher li a.nl {
+    background-position: 74px -76px
+}
+
+.languageSwitcher li a.es {
+    background-position: 74px -116px
+}
+
+.languageSwitcher li a.pt {
+    background-position: 74px -158px
+}
+
+.building .grid12:not(h2) {
+    position: relative;
+    margin: 0;
+    padding: 0 4.5% 2em 4.5%;
+    width: 100%
+}
+
+.building h2.grid12 {
+    padding-left: 0
+}
+
+.building .grid12 > h2 {
+    padding: 1em 0 .5em
+}
+
+.building .grid12 > article {
+    padding-right: 10%
+}
+
+.search.wrapper {
+    bottom: -100px
+}
+
+.linklist-wide,
+.linklist-small {
+    padding: 0
+}
+
+.linklist-wide h1,
+.linklist-small h2 {
+    font-size: 3.1em
+}
+
+.linklist-small h2 {
+    margin-top: 0;
+    padding: 0 2%
+}
+
+.linklist-wide {
+    width: 62.667% !important
+}
+
+.linklist-wide li {
+    float: left;
+    width: 48%;
+    padding: .4em 0 .3em
+}
+
+.linklist-wide li:nth-child(2),
+.pagenav li:first-child,
+.pagenav li:nth-child(2) {
+    border-top: 0
+}
+
+.linklist-wide li:nth-child(2n + 1) {
+    margin-right: 4%
+}
+
+.sharing .wrapper > div:nth-child(2) {
+    padding: .6em 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.bg-coloritem {
+    height: 100px
+}
+
+.grid.blocks .block img:hover {
+    opacity: .8;
+    -moz-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s
+}
+
+.sharing .wrapper > .breadcrumbs {
+    float: left;
+    padding-right: 375px;
+    padding-left: 0;
+    margin-bottom: 0
+}
+
+.breadcrumbs span:last-child {
+    padding-left: 0
+}
+
+@media(max-width:849px) {
+    .sharing .wrapper > .breadcrumbs {
+        float: none;
+        padding-right: 0;
+        padding-left: 0;
+        clear: right;
+        margin-top: 45px
+    }
+}
+
+.banner h1 {
+    max-width: 80%;
+    font-size: 2.3em
+}
+
+.banner.contrast h2,
+.banner.contrast div.info .title {
+    color: #2f57ad
+}
+
+.banner .owl-controls {
+    bottom: 15px
+}
+
+@media(max-width:700px) {
+    .banner h1 {
+        font-size: 1.8em
+    }
+}
+
+@media(min-width:850px) {
+    .banner .contact {
+        position: absolute !important;
+        right: 0;
+        bottom: 2em;
+        background: rgba(255, 255, 255, .85);
+        width: 80%;
+        z-index: 2
+    }
+}
+
+@media(min-width:850px) and (max-width:960px) {
+    .banner .contact {
+        bottom: 1em;
+        padding-top: .5em
+    }
+    .banner .contact div p {
+        line-height: 1.7
+    }
+    .banner .contact ul p {
+        margin-bottom: .3em
+    }
+}
+
+.banner .info-content {
+    position: relative;
+    height: 100%
+}
+
+.banner > div.info {
+    position: absolute !important;
+    z-index: 5;
+    top: 0;
+    height: 100%
+}
+
+.banner .sticker {
+    left: 54%;
+    bottom: 30px
+}
+
+.banner .info .info-left {
+    bottom: auto;
+    top: 115px
+}
+
+.banner .owl-item .info {
+    height: 0
+}
+
+.banner .owl-item .info-titel.h2AtTop {
+    position: relative;
+    margin: 0;
+    top: 120px;
+    left: 5.2%
+}
+
+.banner .owl-item .info .title {
+    width: auto;
+    margin-left: 0
+}
+
+.banner .owl-carousel .owl-item h2 {
+    font-size: 2.3em
+}
+
+.banner .owl-carousel .button3 {
+    padding: 0 3em 0 1.2em;
+    margin-bottom: .4em;
+    width: auto
+}
+
+.banner .owl-carousel:after {
+    content: none
+}
+
+.banner .owl-carousel div.info .button3 {
+    margin-left: 0
+}
+
+.grid12.pagenav {
+    padding: 1.5em 0;
+    overflow: hidden
+}
+
+.grid12.pagenav.sticky .wrapper > section {
+    padding: 0 4.5%;
+    overflow: hidden
+}
+
+.grid12.pagenav .wrapper > section {
+    overflow: hidden
+}
+
+.building .pagenav h1 {
+    text-transform: uppercase;
+    margin-bottom: .3em;
+    margin-top: .5em
+}
+
+.pagenav ul {
+    float: left;
+    width: 21.8%;
+    margin-left: 4.25%
+}
+
+.pagenav ul:first-child {
+    margin-left: 0
+}
+
+.pagenav li {
+    padding: .35em 0 .3em
+}
+
+.pagenav li:nth-child(n + 2) {
+    display: block
+}
+
+.pagenav li a {
+    color: #323232
+}
+
+.pagenav.sticky {
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+
+.pagenav.sticky > section {
+    position: fixed;
+    top: 0;
+    z-index: 2
+}
+
+.pagenav.sticky .wrapper {
+    max-width: 1300px;
+    width: 100%;
+    padding-bottom: 1em;
+    background: rgba(242, 244, 248, .95);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .1);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .1)
+}
+
+.pagenav.sticky li h2:after,
+.pagenav.sticky .open li h2:after {
+    content: "D";
+    font-family: 'icons2';
+    position: absolute;
+    right: -22px;
+    top: 28px;
+    font-size: 10px
+}
+
+.pagenav.sticky li h2:after {
+    top: 4px
+}
+
+.pagenav.sticky .open li h2:after {
+    content: "U"
+}
+
+.pagenav li h2:after,
+.pagenav .open li h2:after {
+    content: ""
+}
+
+.pagenav li:first-child:hover {
+    cursor: default
+}
+
+.pagenav.sticky li:first-child:hover {
+    cursor: pointer
+}
+
+.pagenav.sticky li:first-child,
+.pagenav.sticky li:nth-child(2) {
+    margin-top: .8em
+}
+
+.pagenav.sticky li:nth-child(n + 2) {
+    display: none
+}
+
+.pagenav.sticky .open li:nth-child(n + 2) {
+    display: block
+}
+
+.detail-content {
+    padding: 0
+}
+
+.services > section {
+    overflow: hidden
+}
+
+.services section + h2.grid12 {
+    margin-top: 1em !important
+}
+
+.services h2.grid12 {
+    padding-left: 0 !important
+}
+
+.grid.blocks h1.grid12 {
+    padding: 0 2%
+}
+
+@media(max-width:900px) {
+    .listing .filterset .block {
+        width: 46%
+    }
+    .listing .filterset .block:nth-child(2) {
+        margin-right: 0
+    }
+}
+
+.listing li .cta {
+    margin: 0 0 2em 0
+}
+
+.listing li > div {
+    min-height: 241px
+}
+
+.listing .filterset .block:first-child {
+    margin-left: 0
+}
+
+.results h1,
+.listing > h2 {
+    padding-left: 2%;
+    float: left;
+    margin-right: 2% !important
+}
+
+.results h1 + p {
+    margin-top: 35px
+}
+
+.listing > h2 + p {
+    margin-top: 8px
+}
+
+.results h1 + p + section,
+.listing > h2 + p + section {
+    clear: both
+}
+
+.grid12.gallery.deliveries {
+    margin: 0;
+    width: 100%
+}
+
+section.gallery.trading .galleries .owl-item a {
+    display: block;
+    max-height: 180px;
+    overflow: hidden
+}
+
+section.gallery.trading .owl-prev,
+section.gallery.trading .owl-next {
+    bottom: 50%;
+    transform: none
+}
+
+.grid.blocks.sectionblock.owl-carousel .owl-buttons .owl-next,
+.grid.blocks.sectionblock.owl-carousel .owl-buttons .owl-prev {
+    bottom: 73%
+}
+
+.block > ul {
+    padding: 0
+}
+
+.products-teaser h2 {
+    padding: 0 !important
+}
+
+.grid.blocks .teaser h2,
+.grid.blocks h2.grid12 {
+    padding: 0;
+     !important
+}
+
+.grid.blocks .block.teaser {
+    margin-bottom: .8em;
+    padding: 0
+}
+
+section.blocks > h1.grid12,
+.pagenav h1 {
+    margin-top: 0;
+    font-size: 3.2em
+}
+
+.grid.blocks .teaser ul {
+    min-height: 275px
+}
+
+.grid.blocks .teaser li {
+    padding-bottom: .6em
+}
+
+.date-box + div {
+    margin-bottom: 1.5em
+}
+
+li:last-child .date-box + div {
+    margin-bottom: 0
+}
+
+.news-cluster {
+    padding: 0 4.5% 2.5em 4.5% !important;
+    margin: 0 !important;
+    width: 100% !important
+}
+
+.news-cluster h2 {
+    padding: 1em 0 .5em 0 !important;
+    font-size: 3.2em
+}
+
+.news-cluster ul {
+    overflow: hidden
+}
+
+.news-cluster li {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    border-bottom: 0
+}
+
+.news-cluster li:nth-child(3n) {
+    margin-right: 0
+}
+
+.news-cluster li:nth-child(3n + 4) {
+    clear: left
+}
+
+.news-cluster img {
+    width: 38%
+}
+
+.news-cluster li h3 {
+    font-size: 1.2em
+}
+
+.news-cluster li h3,
+.news-cluster p.date {
+    padding-left: 42%
+}
+
+.news-cluster li:after {
+    display: none
+}
+
+.building .non.product.wrapper {
+    overflow: visible
+}
+
+.grid12.contact {
+    padding-bottom: 2.5em
+}
+
+.grid12.contact h2 {
+    margin-left: 0 !important
+}
+
+@-moz-keyframes backgroundAnimation {
+    from {
+        background-color: #d1d6e1
+    }
+    to {
+        background-color: #5b79c1
+    }
+}
+
+@-webkit-keyframes backgroundAnimation {
+    from {
+        background-color: #d1d6e1
+    }
+    to {
+        background-color: #5b79c1
+    }
+}
+
+@keyframes backgroundAnimation {
+    from {
+        background-color: #d1d6e1
+    }
+    to {
+        background-color: #5b79c1
+    }
+}
+
+@-moz-keyframes backgroundAnimationReverse {
+    from {
+        background-color: #5b79c1
+    }
+    to {
+        background-color: #d1d6e1
+    }
+}
+
+@-webkit-keyframes backgroundAnimationReverse {
+    from {
+        background-color: #5b79c1
+    }
+    to {
+        background-color: #d1d6e1
+    }
+}
+
+@keyframes backgroundAnimationReverse {
+    from {
+        background-color: #5b79c1
+    }
+    to {
+        background-color: #d1d6e1
+    }
+}
+
+.building > section.newsribbon,
+.newsribbon {
+    position: fixed;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    z-index: 99;
+    -webkit-animation: backgroundAnimationReverse 1s;
+    -moz-animation: backgroundAnimationReverse 1s;
+    -ms-animation: backgroundAnimationReverse 1s;
+    -o-animation: backgroundAnimationReverse 1s;
+    animation: backgroundAnimationReverse 1s;
+    background-color: #d1d6e1
+}
+
+.building > section.newsribbon.alt,
+.newsribbon.alt {
+    -webkit-animation: backgroundAnimation 1s;
+    -moz-animation: backgroundAnimation 1s;
+    -ms-animation: backgroundAnimation 1s;
+    -o-animation: backgroundAnimation 1s;
+    animation: backgroundAnimation 1s;
+    background-color: #5b79c1
+}
+
+.grid12.gallery.teasers article {
+    padding: 0 2%
+}
+
+.grid12.gallery.teasers p {
+    padding: 0
+}
+
+section.intro > .grid6,
+section.intro > .grid6 + .grid6 {
+    margin-top: 0
+}
+
+section.intro > .aside section {
+    padding-bottom: 0 !important
+}
+
+section.intro > .aside article {
+    padding: 0
+}
+
+section.intro > .aside .owl-carousel .owl-item div {
+    padding-left: 0;
+    padding-right: 0
+}
+
+section.intro > .aside select {
+    width: 50%
+}
+
+section.intro > .aside .buttons {
+    margin-bottom: 0
+}
+
+section.intro > .aside h2 {
+    color: #2F57AD
+}
+
+section.intro > .aside div p {
+    padding: 0
+}
+
+.intro .grid4 .button3 {
+    width: 60%;
+    clear: both
+}
+
+.intro .grid6 .button3 {
+    width: 50%;
+    clear: both
+}
+
+.intro .grid8 .button3 {
+    width: 38%;
+    clear: none
+}
+
+.intro .grid8 .block.buttons .button3 {
+    margin: 0 1%
+}
+
+.sectionblock .owl-carousel .block {
+    width: auto;
+    margin-left: 5.5%;
+    margin-right: 5.5%
+}
+
+.sectionblock .owl-buttons .owl-prev,
+.sectionblock .owl-buttons .owl-next {
+    bottom: 74%
+}
+
+.newsribbon .trigger:after,
+.newsribbon .trigger:before {
+    position: absolute;
+    height: 19px;
+    width: 37px;
+    content: "";
+    right: 2%;
+    top: 12px;
+    background: transparent url("/includes/image/corporate/ribbon-arrow.png") no-repeat 0 -131px;
+    cursor: pointer
+}
+
+.newsribbon .trigger:before {
+    left: 2%
+}
+
+.newsribbon .trigger a {
+    font-size: 1.6em;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    width: 100%;
+    color: #c9cfda;
+    font-weight: bold
+}
+
+.newsribbon .owl-carousel {
+    height: 94px;
+    width: 91%;
+    margin: 0 4.5%
+}
+
+.newsribbon .owl-item a {
+    padding: 12px 7%;
+    height: 70px
+}
+
+.newsribbon .owl-item img {
+    float: left;
+    width: 100px;
+    margin: 0 12px 0 0
+}
+
+.newsribbon .owl-item h3 {
+    margin-top: 0;
+    font-size: 13px
+}
+
+.newsribbon .owl-buttons .owl-next,
+.newsribbon .owl-buttons .owl-prev {
+    right: -3%;
+    top: 30px
+}
+
+.newsribbon .owl-buttons .owl-prev {
+    left: -3%
+}
+
+.references .results article h3 {
+    margin: 0 2%
+}
+
+.references .results article .button1,
+.references .results article .button2,
+.references .results article .button3 {
+    margin: 0 0 12px 0;
+    width: 100%
+}
+
+.references.grid.blocks .filterset input {
+    width: 26%
+}
+
+.references .results article .label,
+.references .results article .value {
+    width: 100%;
+    float: none
+}
+
+.banner.two-columns .image-left {
+    width: 66.666%
+}
+
+.banner.two-columns .image-right {
+    width: 33.335%;
+    display: block;
+    position: absolute;
+    left: 66.666%;
+    top: 0
+}
+
+.banner.two-columns .info {
+    width: 100%
+}
+
+.banner.two-columns .info h1 {
+    font-size: 2em
+}
+
+.banner.two-columns .info-left {
+    position: absolute;
+    bottom: 20px;
+    left: 2%;
+    width: 50%
+}
+
+.banner.two-columns .info-right {
+    position: absolute;
+    bottom: 20px;
+    left: 70%;
+    width: 20%
+}
+
+.banner.two-columns .info-right a {
+    margin-left: 0;
+    width: 100%
+}
+
+.grid.products h2 {
+    margin-bottom: .5em
+}
+
+.grid.products h2 + a + section + section + section .linklist:before,
+.grid.products h2 + section + section + section .linklist:before {
+    width: 1px
+}
+
+.grid.products h2 + a + section + section + section,
+.grid.products h2 + section + section + section {
+    clear: none
+}
+
+@media(min-width:800px) {
+    .grid.products h2 {
+        float: left;
+        width: auto
+    }
+    .grid.products h2 + a {
+        clear: none;
+        float: right;
+        margin-top: 20px
+    }
+}
+
+.building .vessel-section .grid12 {
+    padding: 2%
+}
+
+.building .vessel-section .grid12 > h2 {
+    padding: 0
+}
+
+.building .vessel-section .grid12 .button3 {
+    margin: 1% 0 0 0;
+    padding: 0 3em 0 1.2em;
+    width: auto
+}
+
+.vessel .vessel-content h2 {
+    padding-top: 0
+}
+
+.vessel .vessel-content h3 {
+    margin-bottom: 1em
+}
+
+.vessel .vessel-content .vessel-listing {
+    padding: 2em 0 0 0
+}
+
+.vessel .vessel-content .grid12 {
+    padding: 0 4.5% 1em
+}
+
+.vessel .vessel-content .grid12.vessel-listing {
+    padding-top: 2em
+}
+
+.vessel .vessel-content .grid12.actions {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center
+}
+
+.vessel .vessel-content .grid12.actions a {
+    width: 35%
+}
+
+.vessel .vessel-content .grid12.actions a:first-child {
+    margin-right: .7em
+}
+
+.vessel .vessel-content .grid12.actions a span {
+    text-transform: uppercase;
+    color: #fff;
+    opacity: .6;
+    font-size: .7em;
+    margin-left: .3em;
+    position: absolute;
+    right: 10px;
+    top: 0
+}
+
+.vessel .vessel-content .grid12.actions a.button3 {
+    padding-left: 2em
+}
+
+.vessel .vessel-content li .label {
+    float: left;
+    width: 33.333%;
+    margin-bottom: 1em;
+    margin-top: 0
+}
+
+.vessel .vessel-content li .value {
+    float: left;
+    width: 66.666%
+}
+
+.vessel .vessel-content li .value p {
+    margin-bottom: 1em
+}
+
+.building .vessel-listing h1 {
+    font-size: 3em
+}
+
+.building .vessel-listing a.button3 {
+    margin: 1.5em 0
+}
+
+.building .vessel-listing .filterset {
+    padding-left: 4.5%;
+    padding-right: 4.5%
+}
+
+.building .vessel-listing .filterset .block {
+    display: inline-block;
+    width: 50%;
+    margin: 0
+}
+
+.building .vessel-listing .filterset .sort-block {
+    float: none;
+    clear: none
+}
+
+.vessel-listing .filterset .block {
+    position: relative
+}
+
+.vessel-listing .filterset .block .vessel-filter {
+    width: 75%
+}
+
+.vessel-listing .vessel-filter {
+    width: 55%
+}
+
+.vessel-listing.filterset .block .reset-link {
+    margin: 8px 0
+}
+
+.vessel-listing .filterset .reset-link,
+.vessel-sort-direction {
+    float: left
+}
+
+.event-location .embed-container.map {
+    padding-bottom: 47% !important
+}
+
+.event-location .button3 {
+    position: absolute;
+    width: auto;
+    top: 49px;
+    right: 4.5%;
+    font-size: 1.071em
+}
+
+@media(max-width:729px) {
+    .event-location h2.grid12 {
+        font-size: 2.8em;
+        margin-top: .4em
+    }
+}
+
+.blocks.wffm .block {
+    width: 100%;
+    margin-top: 150px;
+    padding: 25px
+}
+
+.blocks.wffm .block h2 {
+    font-size: 2.5em
+}
+
+.blocks.wffm .block p {
+    font-size: 16px
+}
+
+.grid12.event-listing article {
+    padding: 0
+}
+
+.event-listing article {
+    height: 100px;
+    padding-left: 0
+}
+
+.event-listing .owl-item li {
+    margin: 0 5px
+}
+
+.event-listing .owl-wrapper-outer {
+    width: 75%;
+    margin: 0 70px
+}
+
+.event-listing .owl-buttons .owl-next,
+.event-listing .owl-buttons .owl-prev {
+    bottom: 15%
+}
+
+.event-listing .owl-buttons .owl-prev {
+    left: 0
+}
+
+.banner.event .info {
+    top: 150px;
+    width: 70%
+}
+
+.banner.event .subinfo {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    width: 25%;
+    padding: 0 20px 10px;
+    background-color: rgba(242, 244, 248, 0.64);
+    color: #3c599b
+}
+
+.banner.event .subinfo li {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 11px 0
+}
+
+@media(max-width:850px) {
+    .banner.event .subinfo li {
+        font-size: 14px;
+        padding: 7px 0
+    }
+}
+
+@media(max-width:715px) {
+    .banner.event .subinfo li {
+        padding: 0
+    }
+}
+
+section.grid12.image {
+    background: #fff
+}
+
+.building .image > h2 {
+    position: absolute;
+    top: -40px
+}
+
+.image > div {
+    margin: 0 -5%
+}
+
+.image article {
+    margin-top: 35px
+}
+
+.building section.story {
+    clear: both
+}
+
+.h1-standalone {
+    font-size: 3em
+}
+
+.owl-buttons .owl-prev,
+.owl-buttons .owl-next {
+    height: 78px
+}
+
+.story .owl-carousel .content-block {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 60%;
+    bottom: 0;
+    padding: 10px 4.5% 20px 80px
+}
+
+.owl_slide_numb {
+    position: absolute;
+    left: 3%;
+    width: 30px;
+    height: 30px;
+    background-color: #2f57ad;
+    color: #fff;
+    z-index: 2;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px
+}

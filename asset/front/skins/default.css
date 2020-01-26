@@ -1,0 +1,227 @@
+/* === color === */
+
+a, a:hover,a:focus,a:active, strike, .post-meta span a:hover, 
+ul.meta-post li a:hover, ul.cat li a:hover, ul.recent li h6 a:hover, ul.portfolio-categ li.active a, ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.related-post li h4 a:hover, span.highlight,article .post-heading h3 a:hover,
+.navbar .nav > .active > a,.navbar .nav > .active > a:hover,.navbar .nav > li > a:hover,.navbar .nav > li > a:focus,.navbar .nav > .active > a:focus, .validation  { 
+	color:#2980b8;
+}
+
+.highlight {
+  background-color: #1622ce;
+}
+
+.sb-icon-search {
+	background: #1622ce;
+}
+
+.navbar-brand span{
+    color: #1622ce;
+}
+
+header .nav li a:hover,
+header .nav li a:focus,
+header .nav li.active a,
+header .nav li.active a:hover,
+header .nav li a.dropdown-toggle:hover,
+header .nav li a.dropdown-toggle:focus,
+header .nav li.active ul.dropdown-menu li a:hover,
+header .nav li.active ul.dropdown-menu li.active a{
+	/*color:#f1c40f;*/
+    color:#2e3bc5;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color:#1622ce;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color:#1622ce;
+}	
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	color:#1622ce;
+}
+/* === background color === */
+
+.custom-carousel-nav.right:hover, .custom-carousel-nav.left:hover, 
+.pagination ul > .active > a:hover,
+.pagination ul > .active > a,
+.pagination ul > .active > span,
+.flex-control-nav li a:hover, 
+.flex-control-nav li a.active {
+  background-color: #1622ce;
+}
+
+.cbp-l-caption-buttonLeft,
+.cbp-l-caption-buttonRight,.cbp-l-filters-button .cbp-filter-counter {
+    background-color: #1622ce;
+}
+
+.breadcrumb {
+  background-color: #1622ce;
+}
+
+/* === border color === */
+.pagination ul > li.active > a,
+.pagination ul > li.active > span, a.thumbnail:hover, input[type="text"].search-form:focus {
+	border:1px solid #1622ce;
+}
+
+.cbp-l-filters-button .cbp-filter-counter:before {
+    border-top: 4px solid #1622ce;
+}
+
+textarea:focus,
+.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #1622ce;
+}
+
+input:focus {
+	border-color: #1622ce;
+}
+
+
+#sendmessage {
+	color: #1622ce;
+}
+
+.pullquote-left {
+	border-left:5px solid #1622ce;
+}
+
+.pullquote-right {
+	border-right:5px solid #1622ce;
+}
+
+/* cta */
+
+.cta-text h2 span {
+	color: #1622ce;
+}
+
+ul.clients li:hover {
+	border:4px solid #1622ce;
+}
+
+
+/* buttons */
+.btn-dark:hover,.btn-dark:focus,.btn-dark:active  {
+  background: #1622ce;
+  border:1px solid #1622ce;
+}
+
+.btn-theme {
+  border:1px solid #21366c;
+  background: #21366c;
+}
+
+/* modal styled */
+.modal.styled .modal-header {
+  background-color: #1622ce;
+}
+
+
+/* blog */
+.post-meta {
+	border-top:4px solid #1622ce;
+}
+
+.post-meta .comments a:hover  {
+	color:#1622ce;
+}
+
+.widget ul.tags li a:hover {
+	background: #1622ce;
+}
+
+.recent-post .text h5 a:hover{
+	color:#1622ce;
+}
+
+/* pricing box */
+
+.pricing-box-alt.special .pricing-heading {
+	background: #1622ce;
+}
+
+
+/* portfolio */
+.cbp-l-filters-dropdownWrap {
+    background: #1622ce;
+}
+.cbp-l-filters-alignLeft .cbp-filter-item-active {
+    background-color: #1622ce;
+    border:1px solid #1622ce;
+}
+.cbp-l-filters-alignCenter .cbp-filter-item:hover {
+    color: #1622ce;
+}
+
+.cbp-l-filters-alignCenter .cbp-filter-item-active {
+    color: #1622ce !important;
+}
+.cbp-l-filters-alignRight .cbp-filter-counter {
+    background: none repeat scroll 0 0 #1622ce;
+}
+.cbp-l-filters-list .cbp-filter-item {
+    border-color: #1622ce;
+}
+.cbp-l-filters-list .cbp-filter-item-active {
+    background-color:#1622ce;
+}
+
+.cbp-popup-singlePage .cbp-popup-navigation-wrap {
+    background-color: #1622ce;
+}
+.cbp-popup-singlePage .cbp-l-project-details-visit {
+    background-color: #1622ce;
+}
+
+/* pagination */
+#pagination a:hover {
+    background: #1622ce;
+}
+
+/* pricing box */
+.pricing-box.special .pricing-offer{
+	background: #1622ce;
+}
+
+
+/* fontawesome icons */
+.icon-square:hover,
+.icon-rounded:hover,
+.icon-circled:hover {
+    background-color: #1622ce;
+}
+[class^="icon-"].active,
+[class*=" icon-"].active {
+    background-color: #1622ce;
+}
+
+
+/* flexslider */
+#featured .flexslider .slide-caption {
+	border-left:5px solid #1622ce;
+}
+
+/* footer */
+
